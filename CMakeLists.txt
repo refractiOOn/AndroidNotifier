@@ -17,7 +17,7 @@ qt_add_executable(${PROJECT_NAME}
     main.cpp
     NotificationClient.cpp
     NotificationClient.hpp
-    android/src/org/qtproject/example/androidnotifier/NotificationClient.java
+    android/src/com/androidnotifier/NotificationClient.java
     android/AndroidManifest.xml
 )
 

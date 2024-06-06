@@ -1,4 +1,4 @@
-package org.qtproject.example.androidnotifier;
+package com.androidnotifier;
 
 import android.app.Notification;
 import android.app.NotificationManager;

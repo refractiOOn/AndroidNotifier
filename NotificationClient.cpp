@@ -38,7 +38,7 @@ void NotificationClient::updateAndroidNotification()
 {
     QJniObject javaNotification = QJniObject::fromString(m_notification);
     QJniObject::callStaticMethod<void>(
-                    "org/qtproject/example/androidnotifier/NotificationClient",
+                    "com/androidnotifier/NotificationClient",
                     "notify",
                     "(Landroid/content/Context;Ljava/lang/String;)V",
                     QNativeInterface::QAndroidApplication::context(),
